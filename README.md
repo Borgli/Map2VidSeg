@@ -1,6 +1,6 @@
 # Map2VidSeg
 
-This is the repository for the paper ""
+This is the repository for the paper "Automatic Prompt Generation for Zero-Shot Single Object Frame Segmentation in Videos Using Classification Models: A Polyp Case Study".
 
 
 ## Installation
@@ -28,6 +28,3 @@ The pipeline is compatible with huggingface models or the code can be changed to
 but a classifier is required, and it needs to be either a CNN model compatible with the PyTorch CAM library or
 a VIT model where we can extract the attention maps. For CNN models we use the final feature layer for the CAM and
 for VIT we use the final block added together.
-
-
-## Recreating the experiments
